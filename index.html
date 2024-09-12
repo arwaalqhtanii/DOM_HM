@@ -1,0 +1,208 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="resume-section">
+            <div class="left-panel">
+                <div class="profile-image text-center">
+                    <img id="profileImage" src="pro.png" alt="Profile Image" 
+                         onmouseover="changeProfileImage()" 
+                         onmouseout="resetProfileImage()">
+                </div>
+
+                <div class="contact-info">
+                    <h4>Contact</h4>
+                    <hr>
+                    <p id="phone" onmouseover="changeText(this, '+111-345-4567 ')" onmouseout="resetText(this, '+111-345-4567 ')"> 
+                        <i class="bi bi-telephone"></i> +123-456-7890
+                    </p>
+        
+                    <p id="email" onmouseover="changeText(this, ' hello@ree.com')" onmouseout="resetText(this, ' hello@ree.com')">
+                        <i class="bi bi-envelope"></i> ahmed@reate.com
+                    </p>
+                    <p id="address" onmouseover="changeText(this, '123 us St.')" onmouseout="resetText(this, '123 us St.')">
+                        <i class="bi bi-geo-alt"></i> 123 Anywhere St.
+                    </p>
+            
+                    <p id="website" onmouseover="changeText(this, ' www.ahmed.com')" onmouseout="resetText(this, ' www.ahmed.com')">
+                        <i class="bi bi-globe"></i> www.reallatsite.com
+                    </p>
+                </div>
+
+                <div class="education">
+                    <h4>EDUCATION</h4>
+                    <hr>
+                    <p onmouseover="changeText(this, 'Master of Business Management (2029 - 2030)')"
+                        onmouseout="resetText(this, '2029 - 2030  Wardiere University')"><strong>2029 -
+                            2030</strong> <br> Wardiere University <br>
+                        <li>Master of Business Management</li>
+                    </p>
+                    <p onmouseover="changeText(this, 'Bachelor of Business (2025 - 2029)')"
+                        onmouseout="resetText(this, '2025 - 2029  Wardiere University')"><strong>2025 -
+                            2029</strong> <br> Wardiere University <br>
+                        <li>Bachelor of Business</li> <br>
+                        <li>GPA: 3.8 / 4.0</li>
+                    </p>
+                </div>
+
+              
+
+
+                <div class="skills">
+    <h4>SKILLS</h4>
+    <hr>
+    <ul>
+        <li id="skill1" onmouseover="changeText(this, 'Project Management')" onmouseout="resetText(this , 'Project (IT)')">Project Management</li>
+        <li id="skill2" onmouseover="changeText(this, 'Public Relations')" onmouseout="resetText(this ,'Privet  (Relations)')">Public Relations</li>
+        <li id="skill3" onmouseover="changeText(this, 'Teamwork ')" onmouseout="resetText(this ,'Personal(work)')">Teamwork</li>
+        <li id="skill4" onmouseover="changeText(this, 'Time Management')" onmouseout="resetText(this,'collaborative (people)' )">Time Management</li>
+        <li id="skill5" onmouseover="changeText(this, 'Leadership ')" onmouseout="resetText(this,'very (flexible)')">Leadership</li>
+        <li id="skill6" onmouseover="changeText(this, 'Effective Communication ')" onmouseout="resetText(this, 'Effective (Communication)')">Effective Communication</li>
+        <li id="skill7" onmouseover="changeText(this, 'Critical Thinking')" onmouseout="resetText(this , 'Critical (Thinking)')">Critical Thinking</li>
+    </ul>
+</div>
+
+                <div class="languages">
+                    <h4>LANGUAGES </h4>
+                    <hr>
+                    <ul>
+                        <li onmouseover="changeText(this, 'Fluent in English')"
+                            onmouseout="resetText(this, 'English (Fluent)')">English</li>
+                        <li onmouseover="changeText(this, 'Fluent in French')"
+                            onmouseout="resetText(this, 'French (Fluent)')">French</li>
+                        <li onmouseover="changeText(this, 'Basics in German')"
+                            onmouseout="resetText(this, 'German (Basics)')">German</li>
+                        <li onmouseover="changeText(this, 'Intermediate in Spanish')"
+                            onmouseout="resetText(this, 'Spanish (Intermediate)')">Spanish</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right-panel">
+                <div class="profile-info">
+                    <h2 id="profileName" onmouseover="changeText(this, 'RICHARD SANCHEZ ')" onmouseout="resetText(this , 'Ahmed Saed  ')">RICHARD SANCHEZ</h2>
+                    <p id="profileRole" onmouseover="changeText(this, 'Marketing Manager ')" onmouseout="resetText(this, 'Informaion System ')">MARKETING MANAGER</p>
+                    <hr>
+                    <h4>PROFILE</h4>
+                    <p id="profileText" onmouseover="changeText(this, 'I am direct in expressing my needs, desires and opinions giving little or no thought to other people’s feelings')" onmouseout="resetText(this , 'I am direct in expressing my needs, desires and opinions giving little or no thought to other people’s feelings  ')">     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.>
+                   
+                        
+                    </p>
+                </div>
+
+                <div class="work-experience">
+                    <h4>WORK EXPERIENCE </h4>
+                    <hr>
+                    <div class="experience"
+                        onmouseover="changeText(this, 'Sourcing & Procurement Analyst, Timmerman Industrie(February 2017 - April 2018 ) Implemented supplier diversity program. Developed databasesand learning tools to facilitate tender analysis, negotiation, andcontracting')"
+                        onmouseout="resetText(this, 'Sourcing & Procurement Intern, Timmerman Industries (February 2017 - April 2018)')">
+                        <h5 id="borcelleTitle" onmouseover="showHoverText(this)" onmouseout="hideHoverText(this)">
+                            Borcelle Studio <span>(2030 - Present)</span>
+                            <span class="hoverText" style="display: none;">Borcelle Studio (Hovered)</span>
+                        </h5>
+                        <p id="borcelleRole" onmouseover="showHoverText(this)" onmouseout="hideHoverText(this)">
+                            Marketing Manager & Specialist
+                            <span class="hoverText" style="display: none;">Marketing Manager & Specialist (Hovered)</span>
+                        </p>
+                        <ul id="borcelleTasks">
+                            <li id="task1" onmouseover="showHoverText(this)" onmouseout="hideHoverText(this)">
+                                Develop and execute comprehensive marketing strategies and campaigns that align with the company's goals and objectives.
+                                <span class="hoverText" style="display: none;">Develop marketing strategies (Hovered)</span>
+                            </li>
+                            <li id="task2" onmouseover="showHoverText(this)" onmouseout="hideHoverText(this)">
+                                Lead, mentor, and manage a high-performing marketing team, fostering a collaborative and results-driven work environment.
+                                <span class="hoverText" style="display: none;">Lead and mentor team (Hovered)</span>
+                            </li>
+                            <li id="task3" onmouseover="showHoverText(this)" onmouseout="hideHoverText(this)">
+                                Monitor brand consistency across marketing channels and materials.
+                                <span class="hoverText" style="display: none;">Monitor brand consistency (Hovered)</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="experience"
+                        onmouseover="changeText(this, 'Marketing Manager  (2025 - 2029)')"
+                        onmouseout="resetText(this, 'Fauget Studio (2025 - 2029)')">
+                        <h5 id="faugetTitle" onmouseover="changeText(this, 'Fauget Studio (Hovered)')" onmouseout="resetText(this)">
+                            Fauget Studio <span>(2025 - 2029)</span>
+                        </h5>
+                        <p id="faugetRole" onmouseover="changeText(this, 'Marketing Manager & Specialist (Hovered)')" onmouseout="resetText(this)">
+                            Marketing Manager & Specialist
+                        </p>
+                        <ul id="faugetTasks">
+                            <li id="task1" onmouseover="changeText(this, 'Manage marketing budget (Hovered)')" onmouseout="resetText(this)">Create and manage the marketing budget, ensuring efficient allocation of resources and optimizing ROI.</li>
+                            <li id="task2" onmouseover="changeText(this, 'Market research (Hovered)')" onmouseout="resetText(this)">Oversee market research to identify emerging trends, customer needs, and competitor strategies.</li>
+                            <li id="task3" onmouseover="changeText(this, 'Monitor brand consistency (Hovered)')" onmouseout="resetText(this)">Monitor brand consistency across marketing channels and materials.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience"
+                        onmouseover="changeText(this, 'Implemented supplier diversity program. Developed databasesand learning tools to facilitate tender analysis, negotiation, andcontracting.  (2024 - 2025)')"
+                        onmouseout="resetText(this, 'Sourcing Operations Specialist, Keithston and Partners  (2024 - 2025) Conducted detailed spend and market analysis, providingvaluable insights for the annual sourcing plan. Successfullymanaged minor sourcing projects and special initiatives, offeringexpert change management support.')">
+                        <h5 id="supplierDiversityTitle" onmouseover="changeText(this, 'Supplier Diversity (Hovered)')" onmouseout="resetText(this)">
+                            Studio Shodwe <span>(2024 - 2025)</span>
+                        </h5>
+                        <p id="supplierDiversityRole" onmouseover="changeText(this, 'Marketing Manager & Specialist (Hovered)')" onmouseout="resetText(this)">
+                            Marketing Manager & Specialist
+                        </p>
+                        <ul id="supplierDiversityTasks">
+                            <li id="task1" onmouseover="changeText(this, 'Develop relationships (Hovered)')" onmouseout="resetText(this)">
+                                Develop and maintain strong relationships with partners, agencies, and vendors to support marketing initiatives.
+                            </li>
+                            <li id="task2" onmouseover="changeText(this, 'Monitor brand consistency (Hovered)')" onmouseout="resetText(this)">
+                                Monitor and maintain brand consistency across all marketing channels and materials.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="references">
+                    <h4>Reference</h4>
+                    <hr>
+                    <div class="reference-item">
+                        <div>
+                            <h5 onmouseover="changeText(this, 'My Estelle Darcy ')" onmouseout="resetText(this, 'My Estelle Darcy ')">Estelle Darcy</h5>
+                            <p onmouseover="changeText(this, 'eJPT ')" onmouseout="resetText(this, 'eJPT ')"> Wardiere Inc. / CTO</p>
+                        </div>
+                        <div class="reference-contact">
+                            <p ><strong>Phone:</strong> 123-456-7890</p>
+                            <p><strong>Email:</strong> hello@reallygreatsite.com</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="reference-item">
+                        <div>
+                            <h5>Harper Richard</h5>
+                            <p>Wardiere Inc. / CEO</p>
+                        </div>
+                        <div class="reference-contact">
+                            <p><strong>Phone:</strong> 123-456-7890</p>
+                            <p><strong>Email:</strong> hello@reallygreatsite.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
